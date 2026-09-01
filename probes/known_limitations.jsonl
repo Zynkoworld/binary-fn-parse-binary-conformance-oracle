@@ -1,0 +1,2 @@
+{"_note": "NOT part of the verify.py gate: the reference raises on these canonical inputs (input validation). Recorded so the gap is auditable rather than merely disclaimed."}
+{"input": "carrot", "exception": "ValueError"}

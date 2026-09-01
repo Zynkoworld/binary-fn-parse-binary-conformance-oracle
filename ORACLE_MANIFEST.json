@@ -1,0 +1,16 @@
+{
+ "oracle_class": "compute-oracle",
+ "oracle_type": "codegen-conformance",
+ "title": "Konformancia-felulet: binary (python, kanonikus exercism korpusz)",
+ "owner": "harvest",
+ "verify": "python3 verify.py",
+ "hardware_free_verify": true,
+ "publish_ready": true,
+ "measurement_byte_lock": "842d44271222e59479786c619a2fce432bda301c4f4e187da3c9ad45a963ae3e",
+ "summary": "7 kanonikus bemenet/kimenet par, 7 kulonbozo kimenet; a referencia a PROVEN codegen-kepesseg (pin=acdc9706a01e63e6), sealed sandboxban ujrafuttatva es az execution_lock ellenorizve a bundle general elott",
+ "source": "harvest capability_base_capsule -> proven_capsule_bundle_gen",
+ "evidence_band": "empirical-corpus",
+ "evidence_basis": "kapszula byte-lock + sealed ujrafuttatas a KOZOLT kanonikus korpuszon; NEM szimbolikus bizonyitas es NEM teljes bemeneti ter",
+ "not_comparable_with": "symbolic-full-input-space (KLEE-alapu conformance)",
+ "scope_note": "NEM altalanos helyesseg-orakulum: a kozolt korpuszon kivuli bemenetrol semmit nem allit."
+}

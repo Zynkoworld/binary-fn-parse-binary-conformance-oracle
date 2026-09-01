@@ -1,0 +1,7 @@
+{"input": "1", "expect": 1, "task": "binary", "lang": "python"}
+{"input": "10", "expect": 2, "task": "binary", "lang": "python"}
+{"input": "11", "expect": 3, "task": "binary", "lang": "python"}
+{"input": "100", "expect": 4, "task": "binary", "lang": "python"}
+{"input": "1001", "expect": 9, "task": "binary", "lang": "python"}
+{"input": "11010", "expect": 26, "task": "binary", "lang": "python"}
+{"input": "10001101000", "expect": 1128, "task": "binary", "lang": "python"}
